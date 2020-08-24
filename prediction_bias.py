@@ -1,5 +1,5 @@
 #prediction_bias.py
-from statistic_functions import *
+from .statistic_functions import *
 import math
 import scipy as sc
 from scipy import stats

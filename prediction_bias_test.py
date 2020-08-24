@@ -1,4 +1,4 @@
-import prediction_bias as pb
+import .prediction_bias as pb
 import unittest
 import pandas as pd
 import numpy as np
