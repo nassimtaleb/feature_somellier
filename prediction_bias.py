@@ -58,7 +58,7 @@ class stat_summarizer:
         self.evaluator=evaluator
         self.legend=legend
     def __call__(self,df,**kwargs):
-        print(f"On evaluating {self.evaluator.__name__}")
+        print("On evaluating {}".format(self.evaluator.__name__))
         self.legend(self.evaluator(df,**kwargs))
         
         pass
